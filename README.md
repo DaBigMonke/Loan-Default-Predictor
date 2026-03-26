@@ -26,7 +26,7 @@ This project takes a real-world credit risk dataset and builds an end-to-end pip
 ## Project Structure
 
 ```
-├── assignment1.py          # Main pipeline: cleaning, training, evaluation, deployment
+├── main.py                 # Main pipeline: cleaning, training, evaluation, deployment
 ├── carousel.py             # Circular doubly-linked list implementation
 ├── credit_risk_train.csv   # Training data
 ├── credit_risk_test.csv    # Test data
@@ -42,7 +42,7 @@ This project takes a real-world credit risk dataset and builds an end-to-end pip
    ```
 3. Run the pipeline:
    ```bash
-   python assignment1.py
+   python main.py
    ```
 4. The program will clean the data, train the model, print evaluation metrics, display charts, and launch the interactive predictor
 
